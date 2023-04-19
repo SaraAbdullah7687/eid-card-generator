@@ -176,9 +176,9 @@ input {
 
 	.image-text {
 		position: absolute;
-		bottom: 8%;
+		bottom: 7.5%;
 		font-size: 12px;
-    font-weight:500;
+    font: weight 70px;
 		left: 0;
 		right: 0;
 		text-align: center;
