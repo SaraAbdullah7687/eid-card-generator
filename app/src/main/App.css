@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
-@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@font-face {
+  font-family: "madani";
+  src: url("../font/alfont_com_Madani-Arabic-Variable-1.ttf");
+}
+
 
 
 @media screen and (min-width:320px) and (max-width: 480px) {
@@ -24,7 +28,7 @@
 }
 
 body {
-	font-family:'Droid Arabic Kufi', serif; 
+	font-family:'madani'; 
 	line-height: 1.5;
 	background-image: linear-gradient(#D6BC9A, #E8DCD0,#8f968f,#32A4B8);
 	padding: 0 2rem;
@@ -144,7 +148,7 @@ input {
 	font-weight: bold;
 	padding: 1em;
 	width: 100%;
-	background-color: #c99038;
+	background-color: #988C7D;
 	border-radius: 6px;
 	color: #FFF;
 	border: 0;
