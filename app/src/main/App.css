@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url('https://fonts.cdnfonts.com/css/madani');
 
 
 @media screen and (min-width:320px) and (max-width: 480px) {
@@ -22,7 +23,7 @@
 }
 
 body {
-	font-family: 'Amiri', serif;
+	font-family:  'madani', sans-serif;
 	line-height: 1.5;
 	background-image: linear-gradient(#D6BC9A, #E8DCD0);
 	padding: 0 2rem;
