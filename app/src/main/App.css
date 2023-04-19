@@ -7,15 +7,17 @@
 
 
 @media screen and (min-width:320px) and (max-width: 480px) {
-	.image-text {
-		position: absolute;
-		bottom: 22%;
-		font-size: 15%;
-		left: 0;
-		right: 0;
-		text-align: center;
-		color: #FFF;
-	}
+  .image-text {
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700px;
+    /* font-size: 17px; */
+    color: #F2F2F2;
+  }
 }
 
 *,
@@ -170,11 +172,11 @@ input {
 
 .image-text {
 	position: absolute;
-	bottom: 3%;
+	bottom: 5%;
 	left: 0;
 	right: 0;
 	text-align: center;
-	font-size: 12px;
+	font-size: 120%;
 	/* font-size: 17px; */
 	color: #FFF;
 }
