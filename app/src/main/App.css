@@ -1,8 +1,12 @@
 /* @import url(https://fonts.googleapis.com/earlyaccess/amiri.css); */
 @font-face {
-  font-family: "beirut";
+  font-family: "beirut-old";
   src: url("../font/beirut-regular.ttf");
 }
+@font-face {
+	font-family: "beirut";
+	src: url("../font/Beirut.ttc");
+  }
 @font-face {
 font-family: "madani";
 src: url("../font/alfont_com_Madani-Arabic-Variable-1.ttf");
