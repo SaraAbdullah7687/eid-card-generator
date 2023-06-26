@@ -1,6 +1,7 @@
 
 import './App.css';
-import img from '../images/eeid.png'
+//import img from '../images/eid.png'
+import img from '../images/empty-card.jpg'
 import React from 'react';
 import html2canvas from 'html2canvas'
 
@@ -34,7 +35,8 @@ function App() {
 
 				<div className="card-image" id="image-download">
 					<img src={img} alt="" className="image" />
-					<h1 className="image-text">{text} </h1>
+					<h1 className="image-eid-text"> عيد أضحى مبارك </h1>
+					<h1 className="image-name">{text} </h1>
 				</div>
 				<div className="input">
 					<input type="text" className="input-field" placeholder="اكتب اسمك هنا" onChange={handleText} value={text} required />

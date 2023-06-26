@@ -1,9 +1,12 @@
-@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+/* @import url(https://fonts.googleapis.com/earlyaccess/amiri.css); */
 @font-face {
-  font-family: "madani";
-  src: url("../font/alfont_com_Madani-Arabic-Variable-1.ttf");
+  font-family: "beirut";
+  src: url("../font/beirut-regular.ttf");
 }
-
+@font-face {
+font-family: "madani";
+src: url("../font/alfont_com_Madani-Arabic-Variable-1.ttf");
+}
 
 *,
 *:after,
@@ -16,7 +19,7 @@
 body {
 	font-family:'madani'; 
 	line-height: 1.5;
-	background-image: linear-gradient(#D6BC9A, #E8DCD0,#8f968f,#32A4B8);
+	background-image: linear-gradient(#6e6b69,#aeaeae,#d09c4e);
 	padding: 0 2rem;
 }
 
@@ -43,8 +46,6 @@ input {
 	box-shadow: 0 10px 20px 0 rgba(#999, .25);
 	padding: .75rem;
 	text-align: center;
-
-
 }
 
 .card-image {
@@ -57,6 +58,7 @@ input {
 	background-position: 0 5%; 
     display: flex;
 	position: relative; */
+	font-family: 'beirut';
 	margin-top: 1rem;
 	display: flex;
 	position: relative;
@@ -154,8 +156,16 @@ input {
 .image {
 	width: 80vw;
 }
-
-.image-text {
+.image-eid-text {
+	position: absolute;
+	bottom: 12%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 165%;
+	color: #FFF;
+}
+.image-name {
 	position: absolute;
 	bottom: 5%;
 	left: 0;
@@ -173,8 +183,17 @@ input {
 }
 
 @media screen and (min-width:320px) and (max-width: 480px) {
-
-	.image-text {
+	.image-eid-text {
+		position: absolute;
+		bottom: 15%;
+		font-size: 14px;
+    font: weight 70px;
+		left: 0;
+		right: 0;
+		text-align: center;
+		color: #FFF;
+	}
+	.image-name {
 		position: absolute;
 		bottom: 7.5%;
 		font-size: 12px;
