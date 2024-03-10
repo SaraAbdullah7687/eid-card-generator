@@ -19,8 +19,9 @@
 body {
 	font-family: 'RBFont', sans-serif;
 	line-height: 1.5;
-	/* background-image: linear-gradient(#ECECEC, #D6D6D6, #B9853E, #B9853E); */
 	background-image: linear-gradient(#d5a55e, #ECECEC, #D6D6D6);
+	padding: 0 1rem; /* Add padding to create margins */
+	margin: 0;
 }
 
 img {
@@ -173,6 +174,7 @@ input {
 	color: #444c54;
 
 }
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -191,17 +193,25 @@ input {
 	text-align: center;
 	font-size: 0.9rem;
 }
-@media screen and (min-width:320px) and (max-width: 480px) {
 
-	.image-text {
-		position: absolute;
-		bottom: 7.5%;
-		font-size: 12px;
-		font: weight 70px;
-		left: 0;
-		right: 0;
-		text-align: center;
-		color: #FFF;
+@media screen and (min-width:320px) and (max-width: 480px) {
+	.card {
+			margin: 2rem auto; /* Adjust margin for mobile */
 	}
 
+	.card-image {
+			margin-top: 1rem;
+			justify-content: center; /* Center the card image */
+	}
+
+	.image-text {
+			position: absolute;
+			bottom: 25%;
+			font-size: 12px;
+			left: 0;
+			right: 0;
+			color: #444c54;
+			text-align: center;
+			font-family: 'RBFont';
+	}
 }
