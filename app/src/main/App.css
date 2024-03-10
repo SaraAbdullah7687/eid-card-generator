@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
 @font-face {
-  font-family: "madani";
-  src: url("../font/alfont_com_Madani-Arabic-Variable-1.ttf");
+  font-family: "RBFont";
+  src: url("../font/ArbFONTS-BR.ttf");
 }
 
 
@@ -14,9 +14,10 @@
 }
 
 body {
-	font-family:'madani'; 
+	font-family:'RBFont'; 
 	line-height: 1.5;
-	background-image: linear-gradient(#D6BC9A, #E8DCD0,#8f968f,#32A4B8);
+	/* background-image: linear-gradient(#ECECEC, #D6D6D6, #B9853E, #B9853E); */
+	background-image: linear-gradient(#d5a55e, #ECECEC, #D6D6D6);
 	padding: 0 2rem;
 }
 
@@ -43,8 +44,6 @@ input {
 	box-shadow: 0 10px 20px 0 rgba(#999, .25);
 	padding: .75rem;
 	text-align: center;
-
-
 }
 
 .card-image {
@@ -134,7 +133,7 @@ input {
 	font-weight: bold;
 	padding: 1em;
 	width: 100%;
-	background-color: #988C7D;
+	background-color: #c98f38d7;
 	border-radius: 6px;
 	color: #FFF;
 	border: 0;
@@ -144,7 +143,7 @@ input {
 }
 
 .action-button:hover {
-	background-color: #c98f38d7;
+	background-color: #999;
 }
 
 .action-button:active {
@@ -157,17 +156,17 @@ input {
 
 .image-text {
 	position: absolute;
-	bottom: 5%;
+	bottom: 25%;
 	left: 0;
 	right: 0;
 	text-align: center;
 	font-size: 120%;
 	/* font-size: 17px; */
-	color: #FFF;
+	color: #444c54;
 }
 
 .heading {
-	font-size: 1.27rem;
+	font-size: 1.20rem;
 	color: #444c54;
 
 }
