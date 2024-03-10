@@ -27,7 +27,7 @@ function App() {
 
     return (
         <div className="container">
-            <div className="content">
+          
                 <div className="card">
                     <p className="heading">اصنع بطاقة تهنئة ريتشي الخاصة بك وشاركها مع فريق عملك ومع من تحب </p>
                     <div className="card-image" id="image-download">
@@ -41,7 +41,7 @@ function App() {
                         <button className="action-button" onClick={downloadImage}>تحميل</button>
                     </div>
                 </div>
-            </div>
+            
             <footer className="footer">
                 <p>© IT Department 2024 ✨</p>
             </footer>

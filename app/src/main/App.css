@@ -20,8 +20,9 @@ body {
 	font-family: 'RBFont', sans-serif;
 	line-height: 1.5;
 	background-image: linear-gradient(#d5a55e, #ECECEC, #D6D6D6);
-	padding: 0 1rem; /* Add padding to create margins */
+	padding: 0 1rem; 
 	margin: 0;
+	position: relative;
 }
 
 img {
@@ -179,29 +180,30 @@ input {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-}
-
-.content {
-	flex: 1;
+	position: relative; 
+	padding-bottom: 3rem;
 }
 
 .footer {
-	width: 100%;
 	background-color: #c98f38d7;
 	color: #fff;
 	padding: 1rem 0;
 	text-align: center;
 	font-size: 0.9rem;
-}
+	position: absolute;
+	bottom: 0;
+	left: -1rem; 
+	right: -1rem; 
 
+}
 @media screen and (min-width:320px) and (max-width: 480px) {
 	.card {
-			margin: 2rem auto; /* Adjust margin for mobile */
+			margin: 2rem auto; 
 	}
 
 	.card-image {
 			margin-top: 1rem;
-			justify-content: center; /* Center the card image */
+			justify-content: center;
 	}
 
 	.image-text {
