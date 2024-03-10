@@ -1,7 +1,10 @@
 @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+
 @font-face {
-  font-family: "RBFont";
-  src: url("../font/ArbFONTS-BR.ttf");
+	font-family: "RBFont";
+	src: url("../font/ArbFONTS-BR.ttf") format('truetype'),
+		url('../font/ArbFONTS-BR.woff2') format('woff2'),
+		url('../font/ArbFONTS-BR.woff') format('woff');
 }
 
 
@@ -14,11 +17,10 @@
 }
 
 body {
-	font-family:'RBFont'; 
+	font-family: 'RBFont', sans-serif;
 	line-height: 1.5;
 	/* background-image: linear-gradient(#ECECEC, #D6D6D6, #B9853E, #B9853E); */
 	background-image: linear-gradient(#d5a55e, #ECECEC, #D6D6D6);
-	padding: 0 2rem;
 }
 
 img {
@@ -34,7 +36,7 @@ input {
 }
 
 .card {
-	margin: 10rem auto;
+	margin: 5rem auto;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -163,6 +165,7 @@ input {
 	font-size: 120%;
 	/* font-size: 17px; */
 	color: #444c54;
+	font-family: 'RBFont';
 }
 
 .heading {
@@ -170,17 +173,35 @@ input {
 	color: #444c54;
 
 }
+.container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
 
+.content {
+	flex: 1;
+}
+
+.footer {
+	width: 100%;
+	background-color: #c98f38d7;
+	color: #fff;
+	padding: 1rem 0;
+	text-align: center;
+	font-size: 0.9rem;
+}
 @media screen and (min-width:320px) and (max-width: 480px) {
 
 	.image-text {
 		position: absolute;
 		bottom: 7.5%;
 		font-size: 12px;
-    font: weight 70px;
+		font: weight 70px;
 		left: 0;
 		right: 0;
 		text-align: center;
 		color: #FFF;
 	}
+
 }
