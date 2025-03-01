@@ -43,7 +43,7 @@ function App() {
                 </div>
             
             <footer className="footer">
-                <p>© IT Department 2024 ✨</p>
+                <p>© IT Department 2025 ✨</p>
             </footer>
         </div>
     );
