@@ -19,7 +19,7 @@
 body {
 	font-family: 'RBFont', sans-serif;
 	line-height: 1.5;
-	background-image: linear-gradient(#d5a55e, #484848, #ECECEC);
+	background-image: linear-gradient(#bf862d, #484848, #ECECEC);
 	padding: 0 1rem; 
 	margin: 0;
 	position: relative;
@@ -120,7 +120,7 @@ input {
 .input-field:focus,
 .input-field:valid {
 	outline: 0;
-	border-bottom-color: #c99038;
+	border-bottom-color: #bf862d;
 	/* &+.input-label {
 		color: #6658d3;
 		transform: translateY(-1.5rem);
