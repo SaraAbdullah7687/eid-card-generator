@@ -19,7 +19,7 @@
 body {
 	font-family: 'RBFont', sans-serif;
 	line-height: 1.5;
-	background-image: linear-gradient(#bf862d, #484848, #ECECEC);
+	background-image: linear-gradient(#a7715b91, #484848, #ECECEC);
 	padding: 0 1rem; 
 	margin: 0;
 	position: relative;
@@ -120,7 +120,7 @@ input {
 .input-field:focus,
 .input-field:valid {
 	outline: 0;
-	border-bottom-color: #bf862d;
+	border-bottom-color: #a7715b91;
 	/* &+.input-label {
 		color: #6658d3;
 		transform: translateY(-1.5rem);
@@ -160,8 +160,9 @@ input {
 
 .image-text {
 	position: absolute;
-	bottom: 29.5%;
+	bottom: 30.85%;
 	left: 0;
+  font-weight: 400;
 	right: 0;
 	text-align: center;
 	font-size: 160%;
@@ -207,9 +208,10 @@ input {
 
 	.image-text {
 			position: absolute;
-			bottom: 29.5%;
+			bottom: 30.85%;
 			font-size: 16px;
 			left: 0;
+      font-weight: 400;
 			right: 0;
 			color: #ffffffc4;
 			text-align: center;
