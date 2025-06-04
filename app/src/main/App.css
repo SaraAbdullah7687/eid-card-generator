@@ -19,7 +19,7 @@
 body {
 	font-family: 'RBFont', sans-serif;
 	line-height: 1.5;
-	background-image: linear-gradient(#a7715b91, #484848, #ECECEC);
+	background-image: linear-gradient(#ae864a, #484848, #ECECEC);
 	padding: 0 1rem; 
 	margin: 0;
 	position: relative;
@@ -160,15 +160,16 @@ input {
 
 .image-text {
 	position: absolute;
-	bottom: 30.85%;
+	bottom: 31.85%;
 	left: 0;
   font-weight: 400;
 	right: 0;
 	text-align: center;
 	font-size: 160%;
 	/* font-size: 17px; */
-	color: #ffffffc4;
+	color: #000000c4;
 	font-family: 'RBFont';
+  font-style:bold;
 }
 
 .heading {
@@ -213,8 +214,9 @@ input {
 			left: 0;
       font-weight: 400;
 			right: 0;
-			color: #ffffffc4;
+			color: #000000c4;
 			text-align: center;
+      font-style:bold;
 			font-family: 'RBFont';
 	}
 }

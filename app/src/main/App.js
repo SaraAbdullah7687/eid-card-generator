@@ -1,6 +1,6 @@
 // App.js
 import './App.css';
-import img from '../images/eid20257.png'
+import img from '../images/EID4.jpeg'
 import React from 'react';
 import html2canvas from 'html2canvas'
 
