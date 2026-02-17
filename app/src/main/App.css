@@ -160,14 +160,14 @@ input {
 
 .image-text {
 	position: absolute;
-	bottom: 31.85%;
+	bottom: 14%;
 	left: 0;
   font-weight: 700;
 	right: 0;
 	text-align: center;
-	font-size: 160%;
+	font-size: 220%;
 	/* font-size: 17px; */
-	color: #000000c4;
+	color: #b07d2d;
 	font-family: 'RBFont';
   font-style:bold;
 }
@@ -209,12 +209,12 @@ input {
 
 	.image-text {
 			position: absolute;
-			bottom: 31.85%;
-			font-size: 16px;
+			bottom: 14%;
+			font-size: 220%;
 			left: 0;
       font-weight: 700;
 			right: 0;
-			color: #000000c4;
+			color: #b07d2d;
 			text-align: center;
       font-style:bold;
 			font-family: 'RBFont';
