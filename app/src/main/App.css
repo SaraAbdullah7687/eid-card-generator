@@ -74,6 +74,9 @@ input {
 	font-weight: 700;
 	color: #735400;
 	line-height: 1.222;
+  
+
+  
 }
 
 .card-form {
@@ -160,17 +163,18 @@ input {
 
 .image-text {
 	position: absolute;
-	bottom: 14%;
+	bottom: 16%;
 	left: 0;
   font-weight: 700;
-	right: 0;
-	text-align: center;
-	font-size: 220%;
+	right: 110px;
+	text-align: right;
+	font-size: 170%;
 	/* font-size: 17px; */
-	color: #b07d2d;
+	color: #21201f;
 	font-family: 'RBFont';
   font-style:bold;
 }
+
 
 .heading {
 	font-size: 1.20rem;
@@ -209,14 +213,15 @@ input {
 
 	.image-text {
 			position: absolute;
-			bottom: 11%;
-			font-size: 190%;
+			bottom: 15%;
+			font-size: 110%;
 			left: 0;
-      font-weight: 700;
-			right: 0;
-			color: #b07d2d;
-			text-align: center;
+      font-weight: 600;
+			right: 80px;
+			color: #21201f;
+			text-align: right;
       font-style:bold;
 			font-family: 'RBFont';
 	}
-}
+  
+    }
